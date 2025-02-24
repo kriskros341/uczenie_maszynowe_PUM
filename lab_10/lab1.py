@@ -1,8 +1,4 @@
-'''
-Lab 1. Summarising dialogues
 
-@author: michal
-'''
 from datasets import load_dataset
 from transformers import AutoModelForSeq2SeqLM
 from transformers import AutoTokenizer

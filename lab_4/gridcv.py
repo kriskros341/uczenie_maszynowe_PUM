@@ -16,7 +16,6 @@ if __name__ == '__main__':
     y = np.array(data[:, 1] == 'M', int)
 
     pipeline = Pipeline([
-        ('pca', PCA())
         ('scaler', StandardScaler()),  # Standardize features
         ('svm', SVC())                 # SVM classifier
     ])

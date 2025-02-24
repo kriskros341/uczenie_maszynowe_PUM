@@ -30,4 +30,4 @@ DODATKOWE INFORMACJE - sprawdź sam
 ## Jak zdobywać informacje
 
 - Czytanie artykułów
--
+- w sume tyle... youtube może?
