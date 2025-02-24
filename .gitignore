@@ -1,0 +1,9 @@
+lab_9/data
+
+lab_11/**/*.zip
+
+.venv
+
+**/*.npz
+
+**/__pycache__

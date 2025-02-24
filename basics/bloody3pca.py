@@ -1,0 +1,58 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy.linalg as la
+from sklearn.cluster import KMeans, AgglomerativeClustering
+from sklearn.decomposition import PCA, NMF
+from sklearn.manifold import TSNE
+from sklearn.metrics import accuracy_score
+
+# Kmeans on Xdr from pca
+if __name__ == '__main__':
+    fname = 'd01_frame_I300'
+    #fname = 'd01_comparison_I350'
+    record = np.load(f'{fname}.npz')
+    
+    data = record['data']
+    X = np.reshape(data, (-1, data.shape[-1]))
+    
+    
+    pca = PCA(n_components=10)
+    Xdr = pca.fit_transform(X)
+    # drfname = f'{fname}_dr_cache.npz'
+    # try:
+    #     Xdr = np.load(drfname)['Xdr']
+    # except FileNotFoundError:
+    #     Xdr = TSNE(n_components=2).fit_transform(X)
+    #     np.savez_compressed(drfname, Xdr=Xdr)
+
+    n_clusters = 9
+    clustering = KMeans(n_clusters=n_clusters).fit(Xdr)
+    # clustering = AgglomerativeClustering(n_clusters=n_clusters, 
+    #                                      linkage='single').fit(Xdr)
+
+
+    plt.figure('Clustering scatterplot')
+    for i, label in enumerate(set(clustering.labels_)):
+        index = clustering.labels_ == label
+        color = plt.cm.tab10(label / (n_clusters - 1))
+        plt.scatter(Xdr[index, 0], Xdr[index, 1], s=5, color=color, 
+                    alpha=0.25, cmap=plt.cm.tab10)
+    plt.xlabel('DR coordinate 1')
+    plt.ylabel('DR coordinate 2')
+    plt.title('Dimensionality reduction projection of X')
+    plt.tight_layout()
+    
+    plt.figure('Clustering image')
+    labels2 = np.reshape(clustering.labels_, data.shape[:2])
+    plt.imshow(labels2, cmap=plt.cm.tab10)
+    plt.tight_layout()
+    
+    plt.figure('Component inspection')
+    for i_component in range(min(Xdr.shape[1], 9)):
+        plt.subplot(3, 3, 1 + i_component)
+        component2 = Xdr[:, i_component].reshape(data.shape[:2])
+        plt.imshow(component2)
+        plt.axis('off')
+    plt.tight_layout()
+    plt.show()
+    
