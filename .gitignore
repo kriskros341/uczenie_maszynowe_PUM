@@ -7,3 +7,5 @@ lab_11/**/*.zip
 **/*.npz
 
 **/__pycache__
+
+lab_5/data
