@@ -1,0 +1,122 @@
+[
+    {
+        "label": "Convenient Breakfast",
+        "items": ["Instant food products", "UHT-milk", "butter", "rolls/buns"]
+    },
+    {
+        "label": "Healthy Snack Pack",
+        "items": ["Berries", "nuts/prunes", "yogurt"]
+    },
+    {
+        "label": "Household Essentials",
+        "items": ["Detergent", "kitchen towels", "toilet cleaner"]
+    },
+    {
+        "label": "Weekend Treats",
+        "items": ["Bottled beer", "chocolate", "potato products"]
+    },
+    {
+        "label": "Baking Delights",
+        "items": ["Baking powder", "flour", "chocolate marshmallow", "cake bar"]
+    },
+    {
+        "label": "Picnic Favorites",
+        "items": ["Bottled water", "canned fish", "crackers", "fruits/vegetable juice"]
+    },
+    {
+        "label": "Dinner Essentials",
+        "items": ["Beef", "onions", "pasta", "sauces"]
+    },
+    {
+        "label": "Refreshing Beverages",
+        "items": ["Beverages", "fruit/vegetable juice", "soda", "wine"]
+    },
+    {
+        "label": "Pamper Yourself",
+        "items": ["Bath products", "skin care", "candles"]
+    },
+    {
+        "label": "Pet Care Bundle",
+        "items": ["Cat food", "dog food", "pet care products"]
+    },
+    {
+        "label": "Outdoor Adventure Pack",
+        "items": ["Canned beer", "sausage", "potato products", "soda"]
+    },
+    {
+        "label": "Breakfast Boost",
+        "items": ["Cereals", "whole milk", "fruit/vegetable juice"]
+    },
+    {
+        "label": "Home Spa Day",
+        "items": ["Bath products", "candles", "skin care", "soft cheese"]
+    },
+    {
+        "label": "Family Movie Night",
+        "items": ["Popcorn", "bottled water", "chocolate", "candy"]
+    },
+    {
+        "label": "Office Snack Supply",
+        "items": ["Crackers", "nuts/prunes", "canned fish"]
+    },
+    {
+        "label": "Weekend BBQ Essentials",
+        "items": ["Beef", "pork", "barbecue sauce", "beer"]
+    },
+    {
+        "label": "Morning Energy Boost",
+        "items": ["Coffee", "energy drinks", "pastry"]
+    },
+    {
+        "label": "Cooking Enthusiast Kit",
+        "items": ["Herbs", "spices", "cooking chocolate", "condiments"]
+    },
+    {
+        "label": "Healthy Lunch Pack",
+        "items": ["Salad dressing", "vegetables", "chicken", "fruit/vegetable juice"]
+    },
+    {
+        "label": "Italian Cuisine Night",
+        "items": ["Pasta", "tomato sauce", "wine", "cheese"]
+    },
+    {
+        "label": "Party Appetizers",
+        "items": ["Frankfurter", "cheese", "crackers", "pickled vegetables"]
+    },
+    {
+        "label": "Cozy Night In",
+        "items": ["Red/blush wine", "cheese", "crackers", "chocolate"]
+    },
+    {
+        "label": "International Flavors",
+        "items": ["Specialty cheese", "rice", "sauces", "spices"]
+    },
+    {
+        "label": "Brunch Bonanza",
+        "items": ["Champagne", "eggs", "bacon", "pastries"]
+    },
+    {
+        "label": "Afternoon Tea Selection",
+        "items": ["Tea", "biscuits", "jam", "whipped/sour cream"]
+    },
+    {
+        "label": "Fitness Fuel",
+        "items": ["Protein bars", "sports drinks", "fruit/vegetable juice"]
+    },
+    {
+        "label": "Summer Picnic Basket",
+        "items": ["Sandwiches", "fruit", "chips", "sparkling wine"]
+    },
+    {
+        "label": "Healthy Start Pack",
+        "items": ["Organic products", "yogurt", "fruit", "nuts/prunes"]
+    },
+    {
+        "label": "Game Night Snacks",
+        "items": ["Chips", "dip", "soda", "candy"]
+    },
+    {
+        "label": "Quick Dinner Fix",
+        "items": ["Ready soups", "rolls/buns", "frozen meals", "wine"]
+    }
+]
